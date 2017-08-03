@@ -1,0 +1,31 @@
+{
+  "name": "err-replacer",
+  "version": "1.0.0",
+  "description": "JSON stringify replacer to add support for error serialization",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/err-replacer",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/err-replacer",
+  "bugs": "https://github.com/tiaanduplessis/err-replacer",
+  "main": "index.js",
+
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard index.js",
+    "format:fix": "npm run format -- --fix",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run format:fix"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "husky": "^0.14.3",
+    "prettier-standard": "^6.0.0"
+  }
+}
