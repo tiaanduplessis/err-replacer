@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/err-replacer.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install err-replacer
 # OR
